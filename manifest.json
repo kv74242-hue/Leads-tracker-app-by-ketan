@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Leads tracker",
+    "icons": {
+        "16": "extension-icon-192.png",
+        "32": "extension-icon-192.png",
+        "48": "extension-icon-192.png",
+        "128": "extension-icon-192.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "extension-icon-192.png",
+            "32": "extension-icon-192.png"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://leads-tracker-app-3e839-default-rtdb.asia-southeast1.firebasedatabase.app/*"
+    ]
+}
